@@ -36,7 +36,7 @@ def get_jwt_token(uid, password):
     """الحصول على JWT باستخدام API المخصص"""
     try:
         response = requests.get(
-            f"https://zix-official-jwt.vercel.app/get?uid={uid}&password={password}",
+            f"https://mohamedbaidone123-f1t4.vercel.app/get?uid={uid}&password={password}",
             timeout=10
         )
         if response.status_code == 200:
